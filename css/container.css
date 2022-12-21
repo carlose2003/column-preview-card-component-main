@@ -10,23 +10,37 @@
 
 .sedans {
     background: hsl(31, 77%, 52%);
-    height: 65vh;
+    height: 70vh;
     width: 90vw;
 }
 
 .suvs {
     background: hsl(184, 100%, 22%);
-    height: 65vh;
+    height: 70vh;
     width: 90vw;
 }
 
 .luxury {
     background: hsl(179, 100%, 13%);
-    height: 65vh;
+    height: 70vh;
     width: 90vw;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 380px){
+    .sedans{
+        height: 65vh;
+    }
+
+    .suvs{
+        height: 65vh;
+    }
+
+    .luxury{
+        height: 65vh;
+    }
+}
+
+@media (min-width: 600px) {
 
     .sedans {
         width: 70vw;
