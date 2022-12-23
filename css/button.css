@@ -45,5 +45,6 @@ button:hover{
 @media (min-width: 1440px) {
     button {
         width: 160px;
+        margin-left: 60px;
     }
 }
